@@ -5,6 +5,7 @@ project "ImGui"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-intermediate/" .. outputdir .. "/%{prj.name}")
 
+
 	files
 	{
 		"imconfig.h",
@@ -21,6 +22,8 @@ project "ImGui"
 		"external/imgui-node-editor/**.inl",
 		"external/imgui-node-editor/**.cpp"
 	}
+
+	includedirs { path.getdirectory(_SCRIPT) }
 
 	filter "system:windows"
 		systemversion "latest"

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="external">
+      <UniqueIdentifier>{2839F3DC-1406-4EE8-3D1F-3C90294B8376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\imgui-node-editor">
+      <UniqueIdentifier>{D9216381-C531-0F52-2EEB-73701A1AFEEA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="external\imgui-node-editor\crude_json.h">
+      <Filter>external\imgui-node-editor</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui-node-editor\imgui_bezier_math.h">
+      <Filter>external\imgui-node-editor</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui-node-editor\imgui_bezier_math.inl">
+      <Filter>external\imgui-node-editor</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui-node-editor\imgui_canvas.h">
+      <Filter>external\imgui-node-editor</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui-node-editor\imgui_extra_math.h">
+      <Filter>external\imgui-node-editor</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui-node-editor\imgui_extra_math.inl">
+      <Filter>external\imgui-node-editor</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui-node-editor\imgui_node_editor.h">
+      <Filter>external\imgui-node-editor</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui-node-editor\imgui_node_editor_internal.h">
+      <Filter>external\imgui-node-editor</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui-node-editor\imgui_node_editor_internal.inl">
+      <Filter>external\imgui-node-editor</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h" />
+    <ClInclude Include="imgui.h" />
+    <ClInclude Include="imgui_internal.h" />
+    <ClInclude Include="imstb_rectpack.h" />
+    <ClInclude Include="imstb_textedit.h" />
+    <ClInclude Include="imstb_truetype.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="external\imgui-node-editor\crude_json.cpp">
+      <Filter>external\imgui-node-editor</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui-node-editor\imgui_canvas.cpp">
+      <Filter>external\imgui-node-editor</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui-node-editor\imgui_node_editor.cpp">
+      <Filter>external\imgui-node-editor</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui-node-editor\imgui_node_editor_api.cpp">
+      <Filter>external\imgui-node-editor</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp" />
+    <ClCompile Include="imgui_demo.cpp" />
+    <ClCompile Include="imgui_draw.cpp" />
+    <ClCompile Include="imgui_widgets.cpp" />
+  </ItemGroup>
+</Project>
